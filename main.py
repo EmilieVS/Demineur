@@ -1,19 +1,34 @@
 # Générer la grille
 # la fonction prend en paramètre ligne (l) et colone(c)
-# la jonction entre ligne est colone est une case. 
- # grid = [[0,0,0] on veut ce résultat là. C'est une liste de liste = liste imbriquée.
-    #      [0,0,0]
-    #      [0,0,0]
-    #     ]
 
+import random
 
-def gridGenerator (l,c):
+def gridGenerator (l,c,b):
+
+    maxbomb = l*c
+    if b >= maxbomb :
+        message = print("Wait there would be bombs everywhere")
+        return message
    
-    grid = [[ 0 for _ in range(l)] 
-            for _ in range(c)]
-    print(grid)
+    grid = [[ 0 for _ in range(c)] 
+            for _ in range(l)]
+    
+    bomb = 0 
+    
+    
+    while bomb < b :
+        i = random.randint(0, l -1)
+        j = random.randint(0, c -1)
 
-gridGenerator(8,9)
+        if grid[i][j] == 0:
+            grid[i][j] = 1
+            bomb+=1
+
+    for row in grid:
+       print(" ".join(str(cell) for cell in row))        
+    
+
+gridGenerator(5,5,25)
     
 
 
