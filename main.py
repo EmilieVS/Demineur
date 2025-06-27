@@ -1,7 +1,7 @@
 # Générer la grille
 # la fonction prend en paramètre ligne (l) et colone(c)
 # la jonction entre ligne est colone est une case. 
- # grid = [[0,0,0] on veut ce résultat là. C'est une liste de liste liste imbriquée.
+ # grid = [[0,0,0] on veut ce résultat là. C'est une liste de liste = liste imbriquée.
     #      [0,0,0]
     #      [0,0,0]
     #     ]

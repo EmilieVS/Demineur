@@ -1,9 +1,24 @@
 # Demineur
+# Minesweeper 
 
-This is a individual exercice for my school.
 
-Step 1 :
-If I had to do it my way, I would use Tktinter to generate the grid but I need to make a function. 
+
+Exercice Guidelines : 
+
+
+Step 1 : Generate the Grid 
+
+Step 2 : make the grid random
+
+Step 3 : make it graphic
+
+Step 4 : make it playful
+
+
+
+Stack : 
+Python 
+No library
 
 
 
