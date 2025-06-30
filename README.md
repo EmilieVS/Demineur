@@ -1,10 +1,11 @@
 # Demineur
 # Minesweeper 
 
-
+Stack : 
+Python 
+No library
 
 Exercice Guidelines : 
-
 
 Step 1 : Generate the Grid 
 
@@ -16,9 +17,7 @@ Step 4 : make it playful
 
 
 
-Stack : 
-Python 
-No library
+
 
 
 
