@@ -2,8 +2,7 @@
 # Minesweeper 
 
 Stack : 
-Python 
-No library
+Python only
 
 Exercice Guidelines : 
 
